@@ -175,7 +175,7 @@ var PostCollection = require('./postCollection');
 
 
 module.exports = Backbone.View.extend({
- el: '#layoutView',
+ el: '.container',
  initialize: function () {
    var self = this;
    var loginFormHTML = new LoginFormView();
@@ -321,10 +321,10 @@ $( ".homeBtn" ).on( "click", function() {
   $('#market').addClass('hide');
 });
 
-var layoutView = require('./layoutView');
+var LayoutView = require('./layoutView');
 
 $(function () {
- new layoutView();
+ new LayoutView();
 });
 
 },{"./layoutView":7,"./router":19,"backbone":11,"jquery":12}],10:[function(require,module,exports){

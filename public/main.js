@@ -32,8 +32,8 @@ $( ".homeBtn" ).on( "click", function() {
   $('#market').addClass('hide');
 });
 
-var layoutView = require('./layoutView');
+var LayoutView = require('./layoutView');
 
 $(function () {
- new layoutView();
+ new LayoutView();
 });

@@ -16,7 +16,7 @@ var PostCollection = require('./postCollection');
 
 
 module.exports = Backbone.View.extend({
- el: '#layoutView',
+ el: '.container',
  initialize: function () {
    var self = this;
    var loginFormHTML = new LoginFormView();
